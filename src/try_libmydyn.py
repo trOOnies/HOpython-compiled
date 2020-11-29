@@ -119,7 +119,7 @@ if mode != 0 and mode < 5:
 
 if mode == 0 or mode == 5:
     print('')
-    print(' - add_int_array(int array: a, int array: b)')
+    print(' - add_int_array(array: a, array: b)')
 
     a = input("a: ")
     b = input("b: ")
@@ -157,7 +157,7 @@ if mode == 0 or mode == 5:
 
 if mode == 0 or mode == 6:
     print('')
-    print(' - dot_product(float array: a, float array: b)')
+    print(' - dot_product(array: a, array: b)')
 
     # Casteo correcto
     math.dot_product.restype = C.c_float

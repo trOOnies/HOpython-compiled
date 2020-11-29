@@ -36,7 +36,11 @@ Estos renglones son aquellos que nos confirman que el shared object no sólo con
 
 ### 3. Escribir un script en python que pruebe **todas** las funciones de la librería
 
-
+Creo el script en la misma carpeta de trabajo, y lo abro con Visual Studio Code:
+```
+> touch try_libmydyn.so
+> code try_libmydyn.so
+```
 
 
 
